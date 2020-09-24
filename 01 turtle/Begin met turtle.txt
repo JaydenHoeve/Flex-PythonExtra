@@ -1,0 +1,70 @@
+Microsoft Windows [Version 10.0.19041.450]
+(c) 2020 Microsoft Corporation. Alle rechten voorbehouden.
+
+C:\Users\Jayden>python -m turtledemo.peace
+Traceback (most recent call last):
+  File "C:\Users\Jayden\AppData\Local\Programs\Python\Python38-32\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\Users\Jayden\AppData\Local\Programs\Python\Python38-32\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\Jayden\AppData\Local\Programs\Python\Python38-32\lib\turtledemo\peace.py", line 60, in <module>
+    main()
+  File "C:\Users\Jayden\AppData\Local\Programs\Python\Python38-32\lib\turtledemo\peace.py", line 30, in main
+    backward(640)
+  File "<string>", line 8, in backward
+  File "C:\Users\Jayden\AppData\Local\Programs\Python\Python38-32\lib\turtle.py", line 1657, in back
+    self._go(-distance)
+  File "C:\Users\Jayden\AppData\Local\Programs\Python\Python38-32\lib\turtle.py", line 1605, in _go
+    self._goto(ende)
+  File "C:\Users\Jayden\AppData\Local\Programs\Python\Python38-32\lib\turtle.py", line 3179, in _goto
+    self._update()
+  File "C:\Users\Jayden\AppData\Local\Programs\Python\Python38-32\lib\turtle.py", line 2660, in _update
+    self._update_data()
+  File "C:\Users\Jayden\AppData\Local\Programs\Python\Python38-32\lib\turtle.py", line 2646, in _update_data
+    self.screen._incrementudc()
+  File "C:\Users\Jayden\AppData\Local\Programs\Python\Python38-32\lib\turtle.py", line 1292, in _incrementudc
+    raise Terminator
+turtle.Terminator
+
+C:\Users\Jayden>py
+Python 3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:43:08) [MSC v.1926 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> importturtle
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'importturtle' is not defined
+>>> import turtle
+>>> help(turtle)
+Help on module turtle:
+
+NAME
+    turtle
+
+MODULE REFERENCE
+    https://docs.python.org/3.8/library/turtle
+
+    The following documentation is automatically generated from the Python
+    source files.  It may be incomplete, incorrect or include features that
+    are considered implementation detail and may vary between Python
+    implementations.  When in doubt, consult the module reference at the
+    location listed above.
+
+DESCRIPTION
+    Turtle graphics is a popular way for introducing programming to
+    kids. It was part of the original Logo programming language developed
+    by Wally Feurzig and Seymour Papert in 1966.
+
+    Imagine a robotic turtle starting at (0, 0) in the x-y plane. After an ``import turtle``, give it
+    the command turtle.forward(15), and it moves (on-screen!) 15 pixels in
+    the direction it is facing, drawing a line as it moves. Give it the
+    command turtle.right(25), and it rotates in-place 25 degrees clockwise.
+
+    By combining together these and similar commands, intricate shapes and
+    pictures can easily be drawn.
+
+    ----- turtle.py
+
+
+>>> dir(turtle)
+['Canvas', 'Pen', 'RawPen', 'RawTurtle', 'Screen', 'ScrolledCanvas', 'Shape', 'TK', 'TNavigator', 'TPen', 'Tbuffer', 'Terminator', 'Turtle', 'TurtleGraphicsError', 'TurtleScreen', 'TurtleScreenBase', 'Vec2D', '_CFG', '_LANGUAGE', '_Root', '_Screen', '_TurtleImage', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__forwardmethods', '__func_body', '__loader__', '__methodDict', '__methods', '__name__', '__package__', '__spec__', '__stringBody', '_alias_list', '_make_global_funcs', '_screen_docrevise', '_tg_classes', '_tg_screen_functions', '_tg_turtle_functions', '_tg_utilities', '_turtle_docrevise', '_ver', 'addshape', 'back', 'backward', 'begin_fill', 'begin_poly', 'bgcolor', 'bgpic', 'bk', 'bye', 'circle', 'clear', 'clearscreen', 'clearstamp', 'clearstamps', 'clone', 'color', 'colormode', 'config_dict', 'deepcopy', 'degrees', 'delay', 'distance', 'done', 'dot', 'down', 'end_fill', 'end_poly', 'exitonclick', 'fd', 'fillcolor', 'filling', 'forward', 'get_poly', 'get_shapepoly', 'getcanvas', 'getmethparlist', 'getpen', 'getscreen', 'getshapes', 'getturtle', 'goto', 'heading', 'hideturtle', 'home', 'ht', 'inspect', 'isdown', 'isfile', 'isvisible', 'join', 'left', 'listen', 'lt', 'mainloop', 'math', 'mode', 'numinput', 'onclick', 'ondrag', 'onkey', 'onkeypress', 'onkeyrelease', 'onrelease', 'onscreenclick', 'ontimer', 'pd', 'pen', 'pencolor', 'pendown', 'pensize', 'penup', 'pos', 'position', 'pu', 'radians', 'read_docstrings', 'readconfig', 'register_shape', 'reset', 'resetscreen', 'resizemode', 'right', 'rt', 'screensize', 'seth', 'setheading', 'setpos', 'setposition', 'settiltangle', 'setundobuffer', 'setup', 'setworldcoordinates', 'setx', 'sety', 'shape', 'shapesize', 'shapetransform', 'shearfactor', 'showturtle', 'simpledialog', 'speed', 'split', 'st', 'stamp', 'sys', 'textinput', 'tilt', 'tiltangle', 'time', 'title', 'towards', 'tracer', 'turtles', 'turtlesize', 'types', 'undo', 'undobufferentries', 'up', 'update', 'width', 'window_height', 'window_width', 'write', 'write_docstringdict', 'xcor', 'ycor']
+>>>
